@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject">
+        <activity
+            android:name=".InstructorViewMembersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MemberSearchClassesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MemberViewClassesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InstructorDeleteClassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InstructorEditClassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScheduleClassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewScheduledClassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RemoveClassTypeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RemoveClassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditClassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddClassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RemoveUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InstructorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MemberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
